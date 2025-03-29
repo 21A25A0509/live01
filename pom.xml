@@ -50,7 +50,12 @@
     </dependency>
 
   </dependencies>
-
+<distributionManagement>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <url>http://65.2.132.141:8081/repository/nexus/</url>
+        </snapshotRepository>
+    </distributionManagement>
   <build>
     <finalName>live</finalName>
     <pluginManagement>
